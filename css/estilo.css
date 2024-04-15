@@ -5,7 +5,9 @@
     margin: 0px;
     padding: 10px; 
 }
+
 html{font-size: 20px;}
+
 h1,
 h2,
 h3,
@@ -16,9 +18,13 @@ h4 {
     font-style: normal;
     
 }
+
 h1,h2{text-align: center;}
-h3{margin-left: 50px;
-background-color: blueviolet;}
+
+h3{
+    margin-left: 50px;
+    background-color: blueviolet;
+}
 
 
 p,
@@ -30,7 +36,7 @@ summary {
     font-weight: 400;
     font-style: normal;
 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 li{list-style: none;}
 
@@ -50,6 +56,19 @@ article{
     background-color: yellow;
     
 }
+.flex-container{
+    display: flex;    
+    justify-content: space-around;
+    
+}
+#left{   
+    background-color: #5EA2DB;
+    flex-wrap: wrap;      
+}
+#right{
+    
+    flex-wrap: wrap;
+}
 
 section{
     background-color: aqua;
@@ -67,4 +86,12 @@ header{
 
 footer{
     background-color: tomato;
+}
+figure{
+    background-color: green;
+       
+    margin: auto;    
+}
+img{
+    max-width: 100%;    
 }
